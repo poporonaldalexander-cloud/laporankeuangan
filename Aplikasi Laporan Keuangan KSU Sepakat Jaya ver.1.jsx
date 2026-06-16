@@ -54,7 +54,7 @@ const NAV_ITEMS = [
 const defaultData = () => ({
   settings: {
     nama: 'KSU Sepakat Jaya',
-    alamat: 'Jl. Merdeka No. 17, Sepakat Jaya',
+    alamat: 'Jl. Merdeka No. 18, Sepakat Jaya',
     badanHukum: '',
     modalAwal: 0,
   },
