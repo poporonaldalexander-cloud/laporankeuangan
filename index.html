@@ -326,17 +326,6 @@ const LOGIN_CREDS = {
   "kc.bekasi":{password:"kepala123",  role:"kepala",   branch:"CB1"},
   kasir1:     {password:"kasir123",   role:"kasir",    branch:"CB1"},
   auditor:    {password:"audit123",   role:"auditor",  branch:"ALL"},
-};
-const ROLES = {
-  super:{name:"Pengelola Sistem",sub:"Administrator & hak akses penuh",all:true},
-  ketua:{name:"Ketua Koperasi",sub:"Pengurus tertinggi"},
-  bendahara:{name:"Bendahara",sub:"Keuangan & akuntansi"},
-  manajer:{name:"Manajer Koperasi",sub:"Operasional koperasi"},
-  kepala:{name:"Kepala Cabang",sub:"Pengelola cabang"},
-  kasir:{name:"Kasir",sub:"Transaksi kas harian"},
-  simpan:{name:"Petugas Simpan Pinjam",sub:"Simpanan & pinjaman"},
-  auditor:{name:"Auditor",sub:"Akses baca-saja"}
-};
 
 function seedBranches(){return [
   {id:"CB1",code:"PST",name:"Cabang Pusat — Bekasi",kepala:"Andi Wijaya",alamat:"Jl. Ahmad Yani No. 12, Bekasi",tlp:"021-8800-1100"},
